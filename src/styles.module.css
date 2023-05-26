@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.container-principal {
+    display: flex;
+    width: 95vw;
+    height: 100vh;
+}
+
+.container-left {
+    border-right: 5px solid red;
+    width: 30%;
+
+}
+.container-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+
+}
+
+.text-h1 {
+    font-size: 100px;
+    margin-left: 16px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.text-p {
+    font-size: 64px;
+    text-align: center;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.text-p:hover {
+    color: blue;
+}
+
+hr {
+    border-color: red;
+    height: 4px;
+    background-color: red;
+}
+
+.img-logo {
+    width: 800px;
+    height: 800px;
+    text-decoration: none;
+}
